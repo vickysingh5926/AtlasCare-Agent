@@ -1,7 +1,7 @@
 """
 Deterministic Executor Node — The ONLY Tool Dispatcher
 
-This is the most critical node in the entire architecture.
+This is the most critical node in the entire architecture..
 
 GOVERNANCE INVARIANT:
   The LLM NEVER directly calls tools. This node is the SOLE tool dispatcher.
