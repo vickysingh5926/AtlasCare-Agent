@@ -1,7 +1,7 @@
 [project]
 name = "atlascare"
 version = "1.0.0"
-description = "Agentic AI Customer Support System for Acme Retail Co."
+description = "Agentic AI Customer Support System for Acm Retail Co."
 requires-python = ">=3.11"
 license = { text = "Proprietary" }
 authors = [{ name = "AtlasCare Team" }]
