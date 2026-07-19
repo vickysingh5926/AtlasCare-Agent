@@ -1,7 +1,7 @@
 """
 Base Tool — Abstract interface for all AtlasCare tools.
 
-All tools (OMS, CRM, KB, Payments) inherit from BaseTool and implement
+ All tool (OMS, CRM, KB, Payments) inherit from BaseTool and implement
 the `execute()` method. The unified interface enables:
 - Automatic tool schema generation for LLM function calling
 - Dynamic tool registry / auto-discovery
