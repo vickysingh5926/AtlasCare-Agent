@@ -2,7 +2,7 @@
 
 ## Overview
 
-This test plan covers functional, safety, governance, and contract validation for the AtlasCare agent system. Tests are designed to verify the four core customer journeys, the LangGraph state transitions, individual node behavior, and the safety guardrails that protect business-critical operations.
+This test plan covers functional, safety, governance, and contract validation for the AtlasCare agent system. Tests are designed to verify the four core customer journeys, the LangGraph state transitions, individual node behavior, and the safety guardrails that protect business-critical operations
 
 ---
 
