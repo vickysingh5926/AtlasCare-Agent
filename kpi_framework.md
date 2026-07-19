@@ -4,7 +4,7 @@
 
 | KPI | Definition | Measurement | Target |
 |-----|-----------|-------------|--------|
-| **Containment Rate** | % of queries resolved without human escalation | `1 - (escalated_queries / total_queries)` | > 80% |
+| **Containment Rate** | % of queries resolved without  escalation | `1 - (escalated_queries / total_queries)` | > 80% |
 | **First Contact Resolution** | % of queries resolved in a single session | Queries with no follow-up within 24h | > 85% |
 | **Average Handle Time** | Median end-to-end latency per journey type | `trace.latency_ms` aggregated by intent | J1 < 3s, J2 < 8s, J3 < 5s |
 | **CSAT Proxy** | User satisfaction indicator | Sentiment analysis on follow-up messages; absence of escalation request after resolution | > 4.0/5.0 |
