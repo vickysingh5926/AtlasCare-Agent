@@ -1,7 +1,7 @@
 """
 Project AtlasCare — FastAPI Application
 
-Agentic AI customer support system with production-grade endpoints:
+Agentic AI customer support systems with production-grade endpoints:
 - POST /query         → Process customer queries via the agent orchestrator
 - GET  /health        → Health check for monitoring and load balancer probes
 - GET  /trace/{id}    → Retrieve interaction trace for audit/replay
