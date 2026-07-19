@@ -1,6 +1,6 @@
 # AtlasCare Architecture
 
-## Overview
+# Overview
 
 AtlasCare uses a **deterministic LangGraph workflow** backed by Llama 3.3 70B Versatile via the Groq API (OpenAI-compatible endpoint). Instead of an unpredictable ReAct loop, the system routes customer queries through a compiled **StateGraph** with explicit nodes, conditional edges, and bounded execution — ensuring full auditability, governance, and predictability.
 
