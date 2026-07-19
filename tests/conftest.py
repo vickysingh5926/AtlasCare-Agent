@@ -1,5 +1,5 @@
 """
-Test Configuration — Shared fixtures for AtlasCare tests.
+Tests Configuration — Shared fixtures for AtlasCare tests.
 
 Provides reusable fixtures for all journey tests, guardrail tests,
 and negative tests.
