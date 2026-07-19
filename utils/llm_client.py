@@ -1,7 +1,7 @@
 """
 Groq LLM Client — OpenAI-Compatible Endpoint
 
-Async wrapper around Llama 3.3 70B Versatile via the Groq API using
+Async wrapper around Llama 3.3 70B Versatil via the Groq API using
 the OpenAI-compatible chat/completions endpoint. Features:
 - Exponential backoff with jitter on retries (3 attempts)
 - Structured logging of all API calls
