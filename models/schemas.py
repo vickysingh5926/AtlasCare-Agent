@@ -1,5 +1,5 @@
 """
-Pydantic Models — Request/Response Schemas
+Pydantic Model — Request/Response Schemas
 
 Defines the API contract for AtlasCare endpoints:
 - QueryRequest: Inbound customer query (channel-agnostic)
