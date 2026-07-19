@@ -4,7 +4,7 @@ from agent.orchestrator import handle_query
 from utils.tracing import generate_session_id
 
 async def run_demo():
-    print("==========================================")
+    print("=========================================")
     print(" ATLASCARE AGENTIC WORKFLOW DEMO")
     print("==========================================\n")
     
