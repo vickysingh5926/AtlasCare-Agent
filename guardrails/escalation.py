@@ -1,5 +1,5 @@
 """
-Escalation Detection Module
+Escalations Detection Module
 
 Determines when an interaction requires human escalation and builds
 structured escalation payloads for CRM case creation. Handles:
