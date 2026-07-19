@@ -1,7 +1,6 @@
 # Project AtlasCare
 
-> Agentic AI customer support system built with a deterministic LangGraph workflow and a dual-model LLM strategy (Llama 3.3 70B & Llama 3.1 8B via Groq), designed for observability, deterministic safety, and enterprise-grade architecture.
-
+> Agentic AI customer support system built with a deterministic LangGraph workflow and a dual-model LLM strategy (Llama 3.3 70B & Llama 3.1 8B via Groq), designed for observability, deterministic safety, and enterprise-grade architecture
 ---
 
 ## Overview
