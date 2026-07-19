@@ -1,0 +1,381 @@
+{
+  "orders": [
+    {
+      "order_id": "ORD-J1",
+      "customer_id": "CUST-001",
+      "status": "shipped",
+      "created_at": "2025-05-01T10:30:00Z",
+      "estimated_delivery": "2025-05-08",
+      "tracking_number": "TRACK-7X9K2M",
+      "shipping_address": {
+        "line1": "12 MG Road",
+        "line2": "Koramangala",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": "560034"
+      },
+      "items": [
+        {
+          "line_id": 1,
+          "product_id": "PROD-1",
+          "name": "Widget",
+          "quantity": 1,
+          "unit_price": 1000.00,
+          "status": "active"
+        }
+      ],
+      "total_amount": 1000.00,
+      "payment_method": "HDFC_CREDIT"
+    },
+    {
+      "order_id": "ORD-J2",
+      "customer_id": "CUST-001",
+      "status": "placed",
+      "created_at": "2025-05-01T10:30:00Z",
+      "estimated_delivery": "2025-05-08",
+      "tracking_number": null,
+      "shipping_address": {
+        "line1": "12 MG Road",
+        "line2": "Koramangala",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": "560034"
+      },
+      "items": [
+        {
+          "line_id": 1,
+          "product_id": "PROD-2",
+          "name": "Laptop",
+          "quantity": 1,
+          "unit_price": 85000.00,
+          "status": "active"
+        },
+        {
+          "line_id": 2,
+          "product_id": "PROD-3",
+          "name": "Mouse",
+          "quantity": 1,
+          "unit_price": 2500.00,
+          "status": "active"
+        }
+      ],
+      "total_amount": 87500.00,
+      "payment_method": "HDFC_CREDIT"
+    },
+    {
+      "order_id": "ORD-J3",
+      "customer_id": "CUST-001",
+      "status": "placed",
+      "created_at": "2025-05-01T10:30:00Z",
+      "estimated_delivery": "2025-05-08",
+      "tracking_number": null,
+      "shipping_address": {
+        "line1": "12 MG Road",
+        "line2": "Koramangala",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": "560034"
+      },
+      "items": [
+        {
+          "line_id": 1,
+          "product_id": "PROD-4",
+          "name": "TV",
+          "quantity": 1,
+          "unit_price": 42000.00,
+          "status": "active"
+        }
+      ],
+      "total_amount": 42000.00,
+      "payment_method": "HDFC_CREDIT"
+    },
+    {
+      "order_id": "ORD-A1",
+      "customer_id": "CUST-002",
+      "status": "delivered",
+      "created_at": "2025-04-20T14:00:00Z",
+      "estimated_delivery": "2025-04-27",
+      "tracking_number": "TRACK-DLV001",
+      "shipping_address": {
+        "line1": "22 Nehru Place",
+        "line2": "",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "pincode": "110019"
+      },
+      "items": [
+        {
+          "line_id": 1,
+          "product_id": "PROD-5",
+          "name": "Wireless Headphones",
+          "quantity": 1,
+          "unit_price": 4500.00,
+          "status": "active"
+        },
+        {
+          "line_id": 2,
+          "product_id": "PROD-6",
+          "name": "Phone Case",
+          "quantity": 2,
+          "unit_price": 799.00,
+          "status": "active"
+        }
+      ],
+      "total_amount": 6098.00,
+      "payment_method": "UPI"
+    },
+    {
+      "order_id": "ORD-A2",
+      "customer_id": "CUST-002",
+      "status": "shipped",
+      "created_at": "2025-05-10T09:15:00Z",
+      "estimated_delivery": "2025-05-15",
+      "tracking_number": "TRACK-SHP002",
+      "shipping_address": {
+        "line1": "22 Nehru Place",
+        "line2": "",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "pincode": "110019"
+      },
+      "items": [
+        {
+          "line_id": 1,
+          "product_id": "PROD-7",
+          "name": "Running Shoes",
+          "quantity": 1,
+          "unit_price": 3200.00,
+          "status": "active"
+        },
+        {
+          "line_id": 2,
+          "product_id": "PROD-8",
+          "name": "Sports T-Shirt",
+          "quantity": 3,
+          "unit_price": 1200.00,
+          "status": "active"
+        },
+        {
+          "line_id": 3,
+          "product_id": "PROD-9",
+          "name": "Gym Bag",
+          "quantity": 1,
+          "unit_price": 1800.00,
+          "status": "active"
+        }
+      ],
+      "total_amount": 8600.00,
+      "payment_method": "UPI"
+    },
+    {
+      "order_id": "ORD-B1",
+      "customer_id": "CUST-003",
+      "status": "placed",
+      "created_at": "2025-05-12T11:00:00Z",
+      "estimated_delivery": "2025-05-19",
+      "tracking_number": null,
+      "shipping_address": {
+        "line1": "5 Anna Salai",
+        "line2": "T Nagar",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "pincode": "600017"
+      },
+      "items": [
+        {
+          "line_id": 1,
+          "product_id": "PROD-10",
+          "name": "4K Monitor",
+          "quantity": 1,
+          "unit_price": 32000.00,
+          "status": "active"
+        },
+        {
+          "line_id": 2,
+          "product_id": "PROD-11",
+          "name": "Mechanical Keyboard",
+          "quantity": 1,
+          "unit_price": 8500.00,
+          "status": "active"
+        },
+        {
+          "line_id": 3,
+          "product_id": "PROD-12",
+          "name": "Webcam HD",
+          "quantity": 1,
+          "unit_price": 2200.00,
+          "status": "active"
+        }
+      ],
+      "total_amount": 42700.00,
+      "payment_method": "ICICI_DEBIT"
+    },
+    {
+      "order_id": "ORD-B2",
+      "customer_id": "CUST-003",
+      "status": "shipped",
+      "created_at": "2025-05-05T16:30:00Z",
+      "estimated_delivery": "2025-05-12",
+      "tracking_number": "TRACK-B2X99",
+      "shipping_address": {
+        "line1": "5 Anna Salai",
+        "line2": "T Nagar",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "pincode": "600017"
+      },
+      "items": [
+        {
+          "line_id": 1,
+          "product_id": "PROD-13",
+          "name": "Desk Lamp",
+          "quantity": 1,
+          "unit_price": 1500.00,
+          "status": "active"
+        }
+      ],
+      "total_amount": 1500.00,
+      "payment_method": "ICICI_DEBIT"
+    },
+    {
+      "order_id": "ORD-B3",
+      "customer_id": "CUST-003",
+      "status": "placed",
+      "created_at": "2025-05-14T08:45:00Z",
+      "estimated_delivery": "2025-05-21",
+      "tracking_number": null,
+      "shipping_address": {
+        "line1": "3rd Floor, Tidel Park, Rajiv Gandhi Salai",
+        "line2": "",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "pincode": "600113"
+      },
+      "items": [
+        {
+          "line_id": 1,
+          "product_id": "PROD-14",
+          "name": "Office Chair",
+          "quantity": 1,
+          "unit_price": 15000.00,
+          "status": "active"
+        },
+        {
+          "line_id": 2,
+          "product_id": "PROD-15",
+          "name": "Standing Desk Mat",
+          "quantity": 1,
+          "unit_price": 2500.00,
+          "status": "active"
+        }
+      ],
+      "total_amount": 17500.00,
+      "payment_method": "ICICI_DEBIT"
+    },
+    {
+      "order_id": "ORD-C1",
+      "customer_id": "CUST-004",
+      "status": "delivered",
+      "created_at": "2025-04-15T12:00:00Z",
+      "estimated_delivery": "2025-04-22",
+      "tracking_number": "TRACK-C1DEL",
+      "shipping_address": {
+        "line1": "10 SG Highway",
+        "line2": "Bodakdev",
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "pincode": "380054"
+      },
+      "items": [
+        {
+          "line_id": 1,
+          "product_id": "PROD-16",
+          "name": "Bluetooth Speaker",
+          "quantity": 1,
+          "unit_price": 3500.00,
+          "status": "active"
+        },
+        {
+          "line_id": 2,
+          "product_id": "PROD-17",
+          "name": "USB-C Cable Pack",
+          "quantity": 1,
+          "unit_price": 499.00,
+          "status": "active"
+        }
+      ],
+      "total_amount": 3999.00,
+      "payment_method": "SBI_NETBANKING"
+    },
+    {
+      "order_id": "ORD-D1",
+      "customer_id": "CUST-005",
+      "status": "shipped",
+      "created_at": "2025-05-08T10:00:00Z",
+      "estimated_delivery": "2025-05-14",
+      "tracking_number": "TRACK-D1KCH",
+      "shipping_address": {
+        "line1": "15 MG Road, Vyttila",
+        "line2": "",
+        "city": "Kochi",
+        "state": "Kerala",
+        "pincode": "682019"
+      },
+      "items": [
+        {
+          "line_id": 1,
+          "product_id": "PROD-18",
+          "name": "Smartwatch",
+          "quantity": 1,
+          "unit_price": 12000.00,
+          "status": "active"
+        },
+        {
+          "line_id": 2,
+          "product_id": "PROD-19",
+          "name": "Watch Strap (Leather)",
+          "quantity": 1,
+          "unit_price": 800.00,
+          "status": "active"
+        }
+      ],
+      "total_amount": 12800.00,
+      "payment_method": "HDFC_CREDIT"
+    },
+    {
+      "order_id": "ORD-D2",
+      "customer_id": "CUST-005",
+      "status": "placed",
+      "created_at": "2025-05-13T15:30:00Z",
+      "estimated_delivery": "2025-05-20",
+      "tracking_number": null,
+      "shipping_address": {
+        "line1": "15 MG Road, Vyttila",
+        "line2": "",
+        "city": "Kochi",
+        "state": "Kerala",
+        "pincode": "682019"
+      },
+      "items": [
+        {
+          "line_id": 1,
+          "product_id": "PROD-20",
+          "name": "Washing Machine",
+          "quantity": 1,
+          "unit_price": 28000.00,
+          "status": "active"
+        },
+        {
+          "line_id": 2,
+          "product_id": "PROD-21",
+          "name": "Detergent Pack (12 months)",
+          "quantity": 1,
+          "unit_price": 1200.00,
+          "status": "active"
+        }
+      ],
+      "total_amount": 29200.00,
+      "payment_method": "HDFC_CREDIT"
+    }
+  ]
+}

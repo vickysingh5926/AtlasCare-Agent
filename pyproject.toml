@@ -1,0 +1,37 @@
+[project]
+name = "atlascare"
+version = "1.0.0"
+description = "Agentic AI Customer Support System for Acme Retail Co."
+requires-python = ">=3.11"
+license = { text = "Proprietary" }
+authors = [{ name = "AtlasCare Team" }]
+
+dependencies = [
+    "fastapi>=0.104.0",
+    "uvicorn>=0.24.0",
+    "httpx>=0.25.0",
+    "pydantic>=2.5.0",
+    "python-dotenv>=1.0.0",
+    "structlog>=23.2.0",
+    "langgraph>=0.2.0",
+    "langchain-core>=0.2.0",
+    "typing-extensions>=4.9.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-asyncio>=0.23.0",
+    "pytest-cov>=5.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=75.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["agent*", "tools*", "guardrails*", "models*", "utils*"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]

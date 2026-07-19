@@ -1,0 +1,196 @@
+{
+  "articles": [
+    {
+      "article_id": "KB-001",
+      "title": "Refund Policy and Threshold Rules",
+      "tags": [
+        "refund",
+        "threshold",
+        "payments",
+        "escalation",
+        "return",
+        "money back"
+      ],
+      "synonyms": ["refund", "money back", "reimburse", "credit", "cashback", "reimbursement"],
+      "content": "Acme Retail processes refunds automatically for amounts up to Rs.25,000 via the Payments Gateway. Refund requests exceeding Rs.25,000 must be escalated to a human specialist via the CRM. The specialist team has a 24-hour response SLA. Customers must raise refund requests within 30 days of delivery. Damaged or defective items are eligible for a full refund regardless of value, subject to specialist approval for amounts above the threshold. Refunds are processed to the original payment method within 5-7 business days for UPI and debit cards, and 7-10 business days for credit cards. Cash on delivery refunds are issued as store credit.",
+      "last_updated": "2025-04-01",
+      "applies_to": [
+        "electronics",
+        "apparel",
+        "home_goods"
+      ]
+    },
+    {
+      "article_id": "KB-002",
+      "title": "Return Window Policy",
+      "tags": [
+        "return",
+        "window",
+        "period",
+        "days",
+        "deadline",
+        "send back"
+      ],
+      "synonyms": ["return", "send back", "give back", "return window", "return period", "how long"],
+      "content": "The standard return window for most items is 30 days from the date of delivery. Electronics have a 15-day return window. Apparel and fashion items must be returned within 10 days and must have original tags attached. Perishable goods, undergarments, and customized items are non-returnable. Items must be in original packaging with all accessories included. To initiate a return, customers can use the self-service portal or contact support. A pickup will be scheduled within 2 business days of return approval.",
+      "last_updated": "2025-04-01",
+      "applies_to": [
+        "electronics",
+        "apparel",
+        "home_goods",
+        "fashion"
+      ]
+    },
+    {
+      "article_id": "KB-003",
+      "title": "Escalation SLA and Support Tiers",
+      "tags": [
+        "escalation",
+        "sla",
+        "support",
+        "response time",
+        "human agent",
+        "specialist"
+      ],
+      "synonyms": ["escalation", "escalate", "human agent", "manager", "supervisor", "specialist", "response time"],
+      "content": "Specialist response is guaranteed within 24 hours for standard escalations. Priority escalations (order value above Rs.50,000 or VIP customers) receive a 4-hour response SLA. All escalation cases are assigned a unique case ID for tracking. Customers are notified via email and SMS when their case is assigned to a specialist. If the SLA is breached, the case is automatically re-escalated to a senior specialist. Escalation reasons are logged for quality analysis and continuous improvement.",
+      "last_updated": "2025-04-01",
+      "applies_to": [
+        "all"
+      ]
+    },
+    {
+      "article_id": "KB-004",
+      "title": "Partial Cancellation and Reshipping Rules",
+      "tags": [
+        "cancellation",
+        "reship",
+        "cancel",
+        "partial",
+        "void",
+        "abort"
+      ],
+      "synonyms": ["cancel", "cancellation", "void", "abort", "reship", "partial cancel"],
+      "content": "Partial cancellations are permitted for individual line items that have not yet been shipped. Once an item is marked as 'shipped' or 'out for delivery', it cannot be cancelled — the customer must initiate a return instead. Full order cancellation is available only if no items have been shipped. Cancelled items are refunded automatically within 5-7 business days. If a partially cancelled order needs reshipping to a different address, the address update must be requested before the remaining items are dispatched. There is no additional charge for reshipping within the same city; inter-city reshipping incurs a flat Rs.99 fee.",
+      "last_updated": "2025-04-01",
+      "applies_to": [
+        "all"
+      ]
+    },
+    {
+      "article_id": "KB-005",
+      "title": "Warranty Policy",
+      "tags": [
+        "warranty",
+        "guarantee",
+        "coverage",
+        "repair",
+        "replacement",
+        "electronics"
+      ],
+      "synonyms": ["warranty", "guarantee", "coverage", "repair", "replacement", "warranty claim", "warranty period"],
+      "content": "Electronics purchased from Acme Retail carry a standard 1-year manufacturer warranty. Extended warranty plans (2-year and 3-year) can be purchased within 15 days of delivery. Warranty covers manufacturing defects and hardware failures under normal use. Warranty does NOT cover physical damage, water damage, or damage caused by unauthorized modifications. To file a warranty claim, customers must provide the order ID and a description of the issue. Approved warranty claims are processed as either a free repair (pickup and return within 7-10 business days) or a replacement if repair is not feasible. Warranty status can be checked using the order ID.",
+      "last_updated": "2025-04-01",
+      "applies_to": [
+        "electronics"
+      ]
+    },
+    {
+      "article_id": "KB-006",
+      "title": "Payment Methods and Refund Processing",
+      "tags": [
+        "payment",
+        "payment method",
+        "UPI",
+        "credit card",
+        "debit card",
+        "COD",
+        "refund processing",
+        "refund timeline"
+      ],
+      "synonyms": ["payment", "pay", "UPI", "credit card", "debit card", "COD", "cash on delivery", "refund time", "when refund"],
+      "content": "Acme Retail accepts UPI, credit cards (Visa, MasterCard, Amex), debit cards, net banking, and Cash on Delivery (COD). COD is available for orders up to Rs.15,000. EMI options are available on credit cards for orders above Rs.3,000. Refund timelines vary by payment method: UPI refunds are processed within 2-3 business days, debit card refunds within 5-7 business days, and credit card refunds within 7-10 business days. COD refunds are issued as store credit or can be transferred to a bank account (takes 10-14 business days). All refunds are processed to the original payment method unless the customer requests otherwise.",
+      "last_updated": "2025-04-01",
+      "applies_to": [
+        "all"
+      ]
+    },
+    {
+      "article_id": "KB-007",
+      "title": "Shipping and Delivery Policy",
+      "tags": [
+        "shipping",
+        "delivery",
+        "dispatch",
+        "free shipping",
+        "tracking",
+        "estimated delivery"
+      ],
+      "synonyms": ["shipping", "delivery", "dispatch", "ship", "deliver", "free shipping", "shipping charge", "delivery time"],
+      "content": "Standard shipping is free for orders above Rs.499. Orders below Rs.499 incur a flat shipping fee of Rs.49. Express delivery (1-2 business days) is available in select metro cities for an additional Rs.149. Standard delivery takes 3-7 business days depending on the destination. Remote areas may take up to 10 business days. All orders include a tracking number that is shared via email and SMS once the order is dispatched. Delivery is attempted twice; if both attempts fail, the order is returned to the warehouse and a full refund is initiated. Customers can reschedule delivery by contacting support before the first attempt.",
+      "last_updated": "2025-04-01",
+      "applies_to": [
+        "all"
+      ]
+    },
+    {
+      "article_id": "KB-008",
+      "title": "Damaged or Defective Items Process",
+      "tags": [
+        "damaged",
+        "defective",
+        "broken",
+        "faulty",
+        "replacement",
+        "return",
+        "refund"
+      ],
+      "synonyms": ["damaged", "broken", "defective", "faulty", "cracked", "not working", "dead on arrival", "DOA"],
+      "content": "If a customer receives a damaged or defective item, they should report it within 48 hours of delivery for expedited processing. The customer must provide photos of the damage and the packaging. For items under Rs.25,000, an immediate replacement or full refund is offered at the customer's choice. For items above Rs.25,000, the case is escalated to a specialist for verification (24-hour SLA). Damaged items do not need to be returned in original packaging. A free pickup is arranged for damaged items within 2 business days. If a replacement is out of stock, a full refund is automatically processed.",
+      "last_updated": "2025-04-01",
+      "applies_to": [
+        "electronics",
+        "apparel",
+        "home_goods"
+      ]
+    },
+    {
+      "article_id": "KB-009",
+      "title": "Customer Support Contact Information",
+      "tags": [
+        "contact",
+        "support",
+        "help",
+        "phone",
+        "email",
+        "chat",
+        "hours"
+      ],
+      "synonyms": ["contact", "support", "help", "phone number", "email", "customer service", "helpline", "reach"],
+      "content": "Acme Retail customer support is available via multiple channels. Live chat is available 24/7 on the website and mobile app. Phone support is available from 8 AM to 10 PM IST at 1800-XXX-XXXX (toll-free). Email support (support@acmeretail.com) has a response time of 12-24 hours. For urgent issues (order stuck in transit, payment charged but order not placed), customers should use live chat or phone for fastest resolution. Social media support (@AcmeRetailCare on Twitter/X) is monitored during business hours.",
+      "last_updated": "2025-04-01",
+      "applies_to": [
+        "all"
+      ]
+    },
+    {
+      "article_id": "KB-010",
+      "title": "Exchange Policy",
+      "tags": [
+        "exchange",
+        "swap",
+        "size exchange",
+        "color exchange",
+        "replacement"
+      ],
+      "synonyms": ["exchange", "swap", "size change", "color change", "wrong size", "wrong color", "different size"],
+      "content": "Exchanges are available for size and color variants within the return window (30 days for most items, 10 days for apparel). The replacement item must be of equal or lesser value. If the replacement item costs more, the customer pays the difference. If it costs less, the difference is refunded. Only one exchange per item is permitted. Exchanges are subject to stock availability — if the requested variant is out of stock, a full refund is offered instead. To request an exchange, customers must contact support with their order ID and the desired variant. Exchange pickups and deliveries are free of charge.",
+      "last_updated": "2025-04-01",
+      "applies_to": [
+        "apparel",
+        "fashion",
+        "electronics"
+      ]
+    }
+  ]
+}

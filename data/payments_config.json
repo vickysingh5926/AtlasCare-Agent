@@ -1,0 +1,39 @@
+{
+  "auto_refund_limit_inr": 25000,
+  "supported_methods": [
+    "HDFC_CREDIT",
+    "ICICI_DEBIT",
+    "SBI_NETBANKING",
+    "UPI",
+    "AXIS_CREDIT",
+    "KOTAK_DEBIT",
+    "PAYTM_WALLET",
+    "original"
+  ],
+  "refund_sla_days": {
+    "HDFC_CREDIT": 10,
+    "ICICI_DEBIT": 7,
+    "SBI_NETBANKING": 7,
+    "UPI": 3,
+    "AXIS_CREDIT": 10,
+    "KOTAK_DEBIT": 7,
+    "PAYTM_WALLET": 2,
+    "original": 7
+  },
+  "emi_options": {
+    "min_order_value": 3000,
+    "available_tenures": [3, 6, 9, 12],
+    "eligible_methods": ["HDFC_CREDIT", "ICICI_DEBIT", "AXIS_CREDIT"]
+  },
+  "cod_limit_inr": 15000,
+  "behaviour": {
+    "failure_rate": 0.03,
+    "failure_code": "504",
+    "failure_message": "PAYMENT_GATEWAY_TIMEOUT"
+  },
+  "retry_policy": {
+    "max_retries": 3,
+    "backoff_multiplier": 2,
+    "initial_delay_ms": 500
+  }
+}
